@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "vooks-catalog",
+  "version": "1.0.0",
+  "description": "Search the Vooks library of ad-free animated read-along storybooks, audiobooks and ebooks for children roughly ages 2 to 8, and read the published subscription prices.",
+  "author": {
+    "name": "Vooks, Inc.",
+    "email": "support@vooks.com",
+    "url": "https://www.vooks.com"
+  },
+  "homepage": "https://www.vooks.com/developers",
+  "repository": "https://github.com/vooks/agent-skills",
+  "license": "UNLICENSED",
+  "keywords": [
+    "children",
+    "books",
+    "reading",
+    "catalog",
+    "education",
+    "storybooks"
+  ]
+}
