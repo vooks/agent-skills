@@ -28,11 +28,15 @@ curl -X POST https://www.vooks.com/mcp \
   -d '{"jsonrpc":"2.0","id":1,"method":"tools/list"}'
 ```
 
-## Or skip all of this
+## Clients
 
-```bash
-npx @vooks/catalog search dinosaurs --age 4
-```
+| Ecosystem | Install |
+|---|---|
+| npm | `npx @vooks/catalog search dinosaurs --age 4` |
+| PyPI | `pip install vooks-catalog` |
+| Go | `go get github.com/vooks/agent-skills/catalog` |
+
+The Go client lives in [`catalog/`](catalog/) in this repo.
 
 ## Reading on
 
